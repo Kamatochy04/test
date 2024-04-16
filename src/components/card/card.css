@@ -1,0 +1,26 @@
+.card {
+  width: 300px;
+  min-height: 300px;
+  padding: 30px;
+  background: #b4a6a66e;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.card__title {
+  font-size: 20px;
+}
+
+.card__text {
+  text-align: start;
+}
+
+.card__price {
+  margin-top: 15px;
+}
+
+.card__price span {
+  font-weight: 800;
+}

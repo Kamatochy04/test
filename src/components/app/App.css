@@ -1,5 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -36,4 +45,19 @@
   100% {
     transform: translateY(0px);
   }
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #b8b8b83d;
 }
